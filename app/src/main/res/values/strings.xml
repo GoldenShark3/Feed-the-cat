@@ -2,5 +2,9 @@
     <string name="app_name">Feed the cat</string>
     <string name="button_feed">Feed</string>
     <string name="text_view_satiety">Satiety</string>
-    <string name="zero_score_text">99995</string>
+    <string name="zero_score_text">0</string>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
 </resources>
