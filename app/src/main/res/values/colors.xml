@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_orange_header">#FF9800</color>
+    <color name="color_dark_orange_header">#9F5F00</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="color_text_black">#000000</color>
+    <color name="color_button_red">#9E0505</color>
+</resources>
