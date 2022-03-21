@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="687dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/labWorkText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Лабораторная работа 1"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="192dp"
+        tools:ignore="MissingConstraints" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="250dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/appNameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed The Cat"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="224dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/developerText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Developer"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="376dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/groupText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Group"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="478dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Aleksey Vyshemirski"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="403dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/groupNumText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="951007"
+        android:textAlignment="viewEnd"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="505dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/bsuirText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BSUIR, 2022"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="661dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
