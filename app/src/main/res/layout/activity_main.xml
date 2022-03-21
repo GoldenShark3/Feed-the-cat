@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/color_white"
-        tools:context=".MainActivity">
+        tools:context=".activity.MainActivity">
 
         <Button
             android:id="@+id/button"
@@ -72,7 +72,6 @@
             android:alpha="0"
             android:contentDescription="@null"
             app:srcCompat="@drawable/heart" />
-
     </RelativeLayout>
 
     <com.google.android.material.navigation.NavigationView
