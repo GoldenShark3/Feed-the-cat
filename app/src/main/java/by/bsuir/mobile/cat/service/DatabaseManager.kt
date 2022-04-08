@@ -5,6 +5,7 @@ import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.widget.Toast
 import by.bsuir.mobile.cat.model.CatStatistic
+import by.bsuir.mobile.cat.model.Score
 
 class DatabaseManager(var context: Context) {
     private val databaseHelper = DatabaseHelper(context)
@@ -27,13 +28,13 @@ class DatabaseManager(var context: Context) {
     }
 
     @SuppressWarnings("Range")
-    fun read(): ArrayList<String> {
-        val dataList = ArrayList<String>()
+    fun read(): ArrayList<Score> {
+        val dataList = ArrayList<Score>()
         val cursor = db?.query(TABLE_NAME, null,null,null,null,null,null)
         while (cursor?.moveToNext()!!) {
             val time = cursor.getString(cursor.getColumnIndex(COL_TIME))
             val satiety = cursor.getInt(cursor.getColumnIndex(COL_SATIETY))
-            dataList.add("Time: $time  Satiety: $satiety\n")
+            dataList.add(Score(satiety, time))
         }
         cursor.close()
         return dataList

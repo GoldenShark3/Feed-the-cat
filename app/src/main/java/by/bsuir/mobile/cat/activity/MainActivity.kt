@@ -71,10 +71,13 @@ class MainActivity : AppCompatActivity() {
         binding.navView.setNavigationItemSelectedListener {
             when (it.itemId) {
                 R.id.about_menu -> {
-                    val intent = Intent(this, AboutActivity::class.java)
+                    var intent = Intent(this, AboutActivity::class.java)
                     startActivity(intent)
                 }
-                else -> println("default")
+                R.id.score_menu -> {
+                    var intent = Intent(this, StatisticActivity::class.java)
+                    startActivity(intent)
+                }
             }
             true
         }

@@ -7,7 +7,9 @@
     <string name="open">Open</string>
     <string name="close">Close</string>
     <string name="about">About</string>
-    <string name="result">Results</string>
+    <string name="score">Score</string>
     <string name="share">Share</string>
+    <string name="score_table_header">SCORE</string>
+    <string name="date_table_header">DATE</string>
 
 </resources>
